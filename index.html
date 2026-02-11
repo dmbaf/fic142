@@ -197,6 +197,19 @@ button{
 </div>
 
 <script>
+window.onload = function(){
+  const ok = confirm(`Warning:
+- Fic chứa yếu tố NSFW, chỉ phù hợp với bot có 🐱.
+- Vì là YCH fic nên không thể tránh khỏi trường hợp OOC, mong bạn thông cảm.
+Hãy chắc chắn rằng bạn đã đủ 18 tuổi trở lên & ổn với nội dung đã được warning trước khi bấm vào đọc!
+Bấm OK để tiếp tục.`);
+
+  if(!ok){
+    window.location.href = "https://google.com";
+  }
+}
+
+
 
 const mainTemplate = `
 [b] lùi về sau, dứt khỏi nụ hôn. từng đốt ngón tay [dxb] bấu chặt lấy hai bên bả vai người yêu [dxb] rồi thả lỏng, xuống dần đến bờ ngực phập phồng. từng nhịp thở cả hai cứ đứt quãng mà dồn dập vì cái hôn nồng nàn mới nãy.
@@ -308,8 +321,9 @@ function scrollToTop(){
     top: 0,
     behavior: "smooth"
   });
-}
 
+
+}
 
 </script>
 
