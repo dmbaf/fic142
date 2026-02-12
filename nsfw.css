@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-  width:100%;
+  width:90%;
   max-width:900px;
   background: rgba(255,255,255,0.05);
   backdrop-filter: blur(15px);
@@ -27,6 +27,20 @@ h1{
   margin-bottom:30px;
   font-weight:600;
   letter-spacing:1px;
+}
+
+
+.top-group,.bot-group{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.top-group p, .bot-group p{
+  text-transform: uppercase;
+  margin:0;
+  font-size: 111%;
+  font-weight: bolder;
 }
 
 .form-container{
@@ -41,13 +55,12 @@ h1{
 }
 
 label{
-  font-size:14px;
   margin-bottom:5px;
   opacity:0.8;
 }
 
 input{
-  padding:10px;
+  padding:5px;
   border:none;
   color:white;
   border-bottom: 1px solid white;
@@ -63,29 +76,13 @@ input{
 }
 
 button{
+  background:#00c6ff;
+  color:white;
   padding:12px 25px;
   border:none;
   cursor:pointer;
   font-weight:600;
   transition:0.3s;
-}
-
-.done{
-    background:#00c6ff;
-  color:white;
-}
-
-.done:hover{
-  transform:scale(1.05);
-}
-
-.demo{
-  background:#00c6ff;
-  color:white;
-}
-
-.demo:hover{
-  transform:scale(1.05);
 }
 
 .story{
@@ -97,8 +94,18 @@ button{
   animation:fadeIn 0.5s ease;
 }
 
+.note a {color: red;}
+.note {margin-top: 20px;}
+
+.overall{
+  width: 100%;
+  justify-content: center; 
+  display: flex;
+}
+
 #backTopBtn{
-  left: 100%;
+  height: 36px;
+  left: 90%;
   top: 90%;
   position: sticky;
   z-index: 1000;
@@ -108,12 +115,11 @@ button{
   color: white;
   cursor: pointer;
   padding: 10px 15px;
-  white-space: nowrap;
 }
-#backTopBtn:hover {
+#backTopBtn:hover,.demo:hover,.done:hover,.switch:hover,.close:hover,.cancel:hover {
  transform: scale(1.05);
 }
-
+#backTopBtn,.demo,.done,.switch,.close,.cancel {white-space: nowrap;} 
 .popup{
   position: fixed;
   inset: 0;
@@ -136,9 +142,35 @@ button{
 }
 .popup-content button{
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border: none;
   background: #00c6ff;
   color: white;
   cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+  body {font-size: 12px;}
+
+  .container{
+    padding:20px;
+    max-width: 700px;
+  }
+  .form-container{
+    grid-template-columns: 1fr;
+    gap:10px 10px;
+  }
+  .overall
+  {
+    padding: 0;
+  }
+  
+  input{
+    padding:6px;
+  }
+  .bot-group p {margin-top: 15px;}
+  button, #backTopBtn {
+    padding: 5px 10px;
+  }
 }
