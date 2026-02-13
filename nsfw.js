@@ -79,8 +79,9 @@ Bên trong [dxb] siết chặt lấy lưỡi [dxa]. Cơn sung sướng đến t�
 
 “... [bg] muốn [bga] nữa cơ…” nhận thấy khuôn mặt người yêu đã nhấc lên, rời khỏi thân dưới mình, [dxb] ngượng ngùng mấp máy giữa hơi thở đứt quãng. “[bgta]...”
 
-[a] rùng mình khi cảm thấy bàn tay người tình mon men trên gấu quần mình, xích dần lên nơi đang cương lên đến chật cứng qua lớp quần áo. Thân trên [dxb] khẽ khàng rướn lên, đưa chút ái tình trong ánh mắt mơ màng mà trao cho người yêu.
+[a] rùng mình khi cảm thấy bàn tay người tình mon men trên gấu quần mình, xích dần lên nơi hạ bộ đang chộn rộn qua lớp quần áo. Thân trên [dxb] khẽ khàng rướn lên, đưa chút ái tình trong ánh mắt mơ màng mà trao cho người yêu.
 
 “[bg] muốn [bgta]… ở bên trong [bg]…”
 
 `;
+
